@@ -4,7 +4,10 @@
   "keywords": [],
   "license": "ISC",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "npx serve"
+  },
+  "devDependencies": {
+    "jest": "23.0.1"
   }
 }

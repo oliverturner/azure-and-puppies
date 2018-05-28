@@ -1,5 +1,9 @@
 # Tensorflow, Mobilenet & I'm fine
 
+![hero](./assets/hero.jpg)
+
+Demo: https://codepen.io/oliverturner/full/LmwJgY/
+
 ## Intro
 
 A reworking of an earlier experiment in image classification inspired by the AI 
