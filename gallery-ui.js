@@ -51,8 +51,8 @@ class GalleryUI {
   _makeLabels(predictions) {
     const getLabel = prediction => {
       const percent = (prediction.probability * 100).toFixed(2);
-      const dt = `<dt data-perc="${percent}">${percent}%</dt>`;
-      const dd = `${prediction.className}</dt>`;
+      const dt = `<dt>${percent}%</dt>`;
+      const dd = `<dd>${prediction.className}</dd>`;
 
       return `${dt} ${dd}`;
     };
@@ -85,6 +85,7 @@ class GalleryUI {
     this.frame.appendChild(this.img);
 
     // Need to introduce a short delay to account for time to mount
+    // Promisifies setTimeout to keep the API consistently awaitable
     return new Promise(resolve => setTimeout(() => resolve(this.img), 100));
   }
 

@@ -123,7 +123,10 @@ body {
 
 .gallery__caption__labels dt {
   text-align: right;
-  margin-right: 10px;
+}
+
+.gallery__caption__labels dd {
+  margin: 0 0 0 10px;
 }
 
 .controls {
