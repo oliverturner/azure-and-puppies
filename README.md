@@ -2,13 +2,13 @@
 
 ![hero](./assets/hero.jpg)
 
-Demo: https://codepen.io/oliverturner/full/LmwJgY/
+Demo: https://azure-puppies.netlify.com/
 
 ## Intro
 
 A reworking of an earlier experiment in image classification inspired by the AI 
-JavaScript London meetup I attended at Microsoft Reactor London on May 14, 2018 
-(which explains the reference to "Azure, Puppies and I'm fine")
+JavaScript London meetup at Microsoft Reactor London on May 14, 2018 (which 
+explains the reference to "Azure, Puppies and I'm fine")
 
 ### Sources
 
