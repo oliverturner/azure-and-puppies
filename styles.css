@@ -212,3 +212,42 @@ body {
     margin-top: 0;
   }
 }
+ 
+/* Github banner -----------------------------------------------------------------------------*/
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+.github-corner {
+  position: absolute; 
+  top: 0; 
+  right: 0;
+  width: 80px; 
+  height: 80px;
+  border: 0; 
+  fill: #70B7FD; 
+  color: #fff;
+  z-index: 2;
+
+  @media (min-width: 500px) {
+    &:hover .octo-arm {
+      animation: octocat-wave 560ms ease-in-out;
+    }
+  }
+
+  & .octo-arm,
+  & .octo-body {
+    fill: currentColor;
+  }
+}
